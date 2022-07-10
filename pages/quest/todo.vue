@@ -26,7 +26,6 @@ export default {
 
 <template>
     <h1>Todo List</h1>
-    <p>{{ activecheck }}</p>
     <div class="add">
         <form @submit.prevent="addTodo">
             <input v-model="newTodo" placeholder="무엇을 하나요?">
