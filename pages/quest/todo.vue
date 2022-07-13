@@ -49,12 +49,10 @@ export default {
             </li>
         </ul>
         <ul v-if="activecheck === 2">
-            <li v-for="todo in todos" :key="todo.id">
-                <div v-if="todo.done === true">
+            <li v-for="todo in todos" :key="todo.id" v-if="todos.done === true">
                     <input type="checkbox" v-model="todo.done">
                     <span :class="{ done: todo.done }"> {{ todo.text }} </span>
                     <button @click="removeTodo(todo)">X</button>
-                </div>
             </li>
         </ul>
         <p> {{ this.todos.filter(v => v.done === false).length }} items left</p>
