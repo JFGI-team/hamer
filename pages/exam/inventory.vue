@@ -1,5 +1,5 @@
-<script>
-const link = "www.naver.com"
+<script setup>
+const link = ref("www.naver.com");
 </script>
 
 <template>
@@ -39,7 +39,7 @@ const link = "www.naver.com"
                     <div class="ObjectLink ObjectTableItem">
                         <div class="ObjectTableTopic">링크</div>
                         <div class="ObjectLinkLine">
-                            <button class="ObjectLinkLineButton">www.naver.com</button>
+                            <button class="ObjectLinkLineButton"> {{ link }} </button>
                         </div>
                     </div>
                     <div class="Accept">
@@ -47,24 +47,11 @@ const link = "www.naver.com"
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
 
 <style scoped>
-@font-face {
-    font-family: 'maple';
-    src: url('/Maplestory Bold.ttf')
-}
-
-.root {
-    background-color: #FFECA8;
-    display: flex;
-    border-radius: 30px;
-    width: 800px;
-    font-family: 'maple';
-}
 
 .Inventory {
     width: 512px;
@@ -97,6 +84,7 @@ const link = "www.naver.com"
 
 .img {
     margin: 0 auto;
+    width:60%;
 }
 
 .ObjectName {
@@ -153,15 +141,17 @@ const link = "www.naver.com"
     height: 40px;
     margin-top: 10px;
 }
-.ObjectLinkLine{
+
+.ObjectLinkLine {
     background-color: #B58948;
     border-radius: 30px;
     width: 55%;
 }
-.ObjectLinkLineButton{
+
+.ObjectLinkLineButton {
     background-color: transparent;
-    color:black;
-    font-size:small;
+    color: black;
+    font-size: small;
     font-weight: lighter;
 }
 </style>
