@@ -1,0 +1,104 @@
+[
+  {
+    "id": "amethyst_shard",
+    "name": "Amethyst Shard",
+    "sprite": "/sprites/amethyst_shard.png"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "sprite": "/sprites/apple.png"
+  },
+  {
+    "id": "axolotl_bucket",
+    "name": "Axolotl Bucket",
+    "sprite": "/sprites/axolotl_bucket.png"
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "sprite": "/sprites/cake.png"
+  },
+  {
+    "id": "candle",
+    "name": "Candle",
+    "sprite": "/sprites/white_candle.png",
+    "color": [
+      {
+        "name": "White",
+        "type": "white",
+        "sprite": "/sprites/white_candle.png"
+      },
+      {
+        "name": "Black",
+        "type": "black",
+        "sprite": "/sprites/black_candle.png"
+      },
+      {
+        "name": "Light Blue",
+        "type": "light_blue",
+        "sprite": "/sprites/light_blue_candle.png"
+      },
+      {
+        "name": "White",
+        "type": "white",
+        "sprite": "/sprites/white_candle.png"
+      }
+    ]
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "sprite": "/sprites/campfire.png"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "sprite": "/sprites/carrot.png"
+  },
+  {
+    "id": "clock",
+    "name": "Clock",
+    "sprite": "/sprites/clock_00.png"
+  },
+  {
+    "id": "cooked_beef",
+    "name": "Cooked Beef",
+    "sprite": "/sprites/cooked_beef.png"
+  },
+  {
+    "id": "diamond",
+    "name": "Diamond",
+    "sprite": "/sprites/diamond.png"
+  },
+  {
+    "id": "ender_pearl",
+    "name": "Ender Pearl",
+    "sprite": "/sprites/ender_pearl.png"
+  },
+  {
+    "id": "feather",
+    "name": "Feather",
+    "sprite": "/sprites/feather.png"
+  },
+  {
+    "id": "item_frame",
+    "name": "Item Frame",
+    "sprite": "/sprites/item_frame.png"
+  },
+  {
+    "id": "music_disc_otherside",
+    "name": "Music Disc Otherside",
+    "sprite": "/sprites/music_disc_otherside.png"
+  },
+  {
+    "id": "trident",
+    "name": "Trident",
+    "sprite": "/sprites/trident.png"
+  },
+  {
+    "id": "tropical_fish",
+    "name": "Tropical Fish",
+    "sprite": "/sprites/tropical_fish.png"
+  }
+]
